@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="7dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:weightSum="2"
+        android:background="@drawable/shape_rectangle_corner"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/imageView"
+            android:layout_weight="0.5"
+            android:src="@drawable/ltcpackage"
+            android:layout_width="0dp"
+            android:layout_height="70dp"/>
+
+            <TextView
+                android:id="@+id/txtTitle"
+                android:text="LEH LADAKH TOUR 08 Days"
+                android:layout_marginLeft="10dp"
+                android:textSize="14sp"
+                android:layout_gravity="center"
+                android:textColor="@color/themeColor"
+                android:fontFamily="@font/roboto_bold"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

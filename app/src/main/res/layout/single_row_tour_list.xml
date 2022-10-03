@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="7dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+   <LinearLayout
+       android:orientation="horizontal"
+       android:weightSum="2"
+       android:id="@+id/layoutButton"
+       android:background="@drawable/shape_rectangle_corner"
+       app:layout_constraintTop_toTopOf="parent"
+       android:layout_width="match_parent"
+       android:layout_height="80dp">
+
+      <ImageView
+          android:id="@+id/imageView"
+          android:layout_weight="0.2"
+          android:layout_marginLeft="10dp"
+          android:layout_gravity="center"
+          android:src="@drawable/ltcpackage"
+          android:layout_width="60dp"
+          android:layout_height="60dp"/>
+       <LinearLayout
+           android:layout_weight="1.8"
+           android:layout_width="0dp"
+           android:layout_gravity="center"
+           android:orientation="vertical"
+           android:layout_height="wrap_content">
+           <TextView
+               android:id="@+id/txtTitle"
+               android:text="LEH LADAKH TOUR 08 Days"
+               android:layout_marginLeft="10dp"
+               android:textSize="14sp"
+               android:textColor="@color/black"
+               android:layout_marginTop="7dp"
+               android:fontFamily="@font/roboto_regular"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"/>
+           <TextView
+               android:id="@+id/txtDescription"
+               android:text="LEH LADAKH TOUR 08 Days"
+               android:layout_marginLeft="10dp"
+               android:textSize="12sp"
+               android:textColor="@color/black"
+               android:layout_marginTop="7dp"
+               android:fontFamily="@font/roboto_regular"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"/>
+       </LinearLayout>
+
+   </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

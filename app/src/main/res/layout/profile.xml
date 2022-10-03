@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="270dp"
+    android:paddingBottom="10dp"
+    android:layout_height="wrap_content">
+        <!--<include
+            android:id="@+id/toolbarNav"
+            layout="@layout/app_bar"/>-->
+
+        <LinearLayout
+            app:layout_constraintTop_toTopOf="parent"
+            android:orientation="horizontal"
+            android:weightSum="2"
+            android:layout_marginTop="14dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/profilePicture"
+                    android:layout_width="0dp"
+                     android:layout_gravity="left"
+                    android:layout_height="65dp"
+                    android:layout_weight="0.7"
+                    android:src="@drawable/userprofile"
+                    />
+
+                <TextView
+                    android:textColor="@color/black"
+                    android:id="@+id/txtName"
+                    android:textSize="14sp"
+                    android:textStyle="bold"
+                    android:gravity="center"
+                    android:text="Rambabu Prajapati"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:fontFamily="@font/roboto_regular"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content" />
+
+        </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

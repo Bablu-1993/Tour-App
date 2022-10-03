@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "458706643940",
+    "project_id": "ltctour",
+    "storage_bucket": "ltctour.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:458706643940:android:0b6c31cfabf38304b6f5f1",
+        "android_client_info": {
+          "package_name": "com.fmsfrontend.ltctours"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "458706643940-0lf8sg420pvc2cs7nr3cu01gpuff8j2c.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDWi0qxGq02QytfnRTXs4smQ323WCnGNUo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "458706643940-0lf8sg420pvc2cs7nr3cu01gpuff8j2c.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
